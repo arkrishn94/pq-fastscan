@@ -1,6 +1,8 @@
 # PQ-FastScan
 PQ-FastScan is a Rust implementation for fast vector quantization and search using Product Quantization (PQ). It supports 8-bit PQ using AVX512 SIMD instructions, which significantly accelerates the computation by leveraging advanced vector extensions.
 
+This repository is still under development and is not yet ready for benchmarking.
+
 ## Installation
 
 ### Prerequisites
