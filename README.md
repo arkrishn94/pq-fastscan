@@ -25,13 +25,15 @@ Ensure you have the following installed on your system:
 (On Linux)
     ```sh
     sudo apt-get update
-    sudo apt-get install -y libhdf5-dev
+    sudo apt-get install -y build-essential libhdf5-dev openssl pkg-config libssl-dev
     ```
 
 3. Install HDF5 library (On MacOS):
     ```sh
-    brew install hdf5
+    brew install hdf5@1.10 openssl pkg-config
     ```
+**Note**: Make sure to follow the instructions to link the HDF5 library correctly after installation.  
+
 
 4. Clone the repository:
     ```sh
